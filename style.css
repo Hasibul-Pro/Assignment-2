@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto{
+  font-family: "Noto Serif", serif;
+  font-weight:700;  
+  font-style:normal;
+}
+
 
 .inter{
   font-family: "Inter", sans-serif;
@@ -49,5 +57,70 @@
 
 .hero{
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.hero-title{
+    font-size: 65px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.hero-description{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.orange{
+    color: rgb(233, 90, 8);
+}
+
+/* ------------------------------ */
+
+
+.first-part{
+    text-align: center;
+    margin-top: 100px;
+}
+.title-1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-bottom: -2px;
+}
+
+.second-part{
+    margin-top: 48px;
+}
+.card{
+    align-items: center;
+    text-align: center;
+}
+.card-image{
+    width: 270px;
+    height: 322.94px;
+}
+.card-text{
+    color: rgb(17, 17, 17);
+    font-family: inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.bold{
+    font-weight: 700;
+}
+.btn{
+    width: 270px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(233, 90, 8);
+    border: 0;
+    padding: 0%;
+    margin-top: -5px;
+    margin-bottom: 40px;
+}
+.second-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
