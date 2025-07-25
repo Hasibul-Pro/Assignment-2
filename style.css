@@ -15,15 +15,23 @@
   font-weight: 700;
   font-style: normal;
 }
+.inter-p{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.25rem;
+}
 
 *{
 box-sizing: border-box;
 }
 .start{
     width: 1140px;
-    margin: 0 auto;
-    background: rgb(245, 248, 255); 
-    
+    margin: 0 auto;  
+}
+.bg-color{
+  background: rgb(245, 248, 255);
 }
 .logo{
     width: 135px;
@@ -185,14 +193,7 @@ box-sizing: border-box;
   line-height: 1.6;
 }
 
-
-
-
 /* ---------------------------------------- */
-
-
-
-
 
 .second-part{
     display: grid;
@@ -257,9 +258,6 @@ box-sizing: border-box;
   right: 0;
   bottom: 0;
 }
-
-
-
 
 .overlay h3 {
   font-size: 1.2rem;
