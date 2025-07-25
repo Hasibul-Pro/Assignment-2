@@ -1,0 +1,29 @@
+.last{
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-links li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgb(107, 114, 128);
+}
+.footer-link-2 li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.footer-link-2 a{
+    text-decoration: none;
+    color: rgb(107, 114, 128);
+}
+.footer-text{
+    color: rgb(107, 114, 128);
+}
